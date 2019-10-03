@@ -1,3 +1,4 @@
+<p align="center">
 Photovoltaic power Simulator
 =============================
 Meter: This produce messages to the broker with random but continuous values from
@@ -13,3 +14,4 @@ Configuration
 2. Make sure, you've latest python and pip version: 'sudo apt-get update && sudo apt-get upgrade'
 3. Install RabbitMQ library for Python: 'sudo pip install pika'
 4. From console run file 'run.py': 'python run.py'
+<\p>
