@@ -1,4 +1,3 @@
-<p align="center">
 Photovoltaic power Simulator
 =============================
 Meter: This produce messages to the broker with random but continuous values from
