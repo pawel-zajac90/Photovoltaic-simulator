@@ -1,12 +1,12 @@
 import csv
 import pika
 import datetime
-from meter_c import *
+from photovoltanic_simulator.meter_c import *
 import math
-from timer import time
+from photovoltanic_simulator.helpers import time
 timer = time()
 
-# Saving all data to .csv file
+# Save all data to .csv file
 def save(watts_value_list, pv_power_value_list, watts_PV_list, timer=timer):
     choose_name = input("If You want to choose name of file press 'Y' (or press any other key to use default)")
     if choose_name.upper() == 'Y':
@@ -28,7 +28,7 @@ def save(watts_value_list, pv_power_value_list, watts_PV_list, timer=timer):
     return name
 
 
-# Creating list with values: Watts plus PV power
+# Create list with values: Watts plus PV power
 def create_watts_pv_list(w_list, pv_list):
     watts_PV_list = []
 

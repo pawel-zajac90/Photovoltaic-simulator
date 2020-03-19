@@ -1,0 +1,7 @@
+database = power.db
+tables: 
+1. production (id, timestamp, generated Watts)
+2. consumption (id, timestamp, used Watts)
+3. bilans (bilans_id, prod_id, conump_id, prod-consump, costs)
+
+
