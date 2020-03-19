@@ -1,16 +1,10 @@
-Photovoltaic power Simulator
+#Photovoltaic power Simulator
 =============================
-Meter: This produce messages to the broker with random but continuous values from
-0 to 9000 Watts. 
-PV simulator: This listen to the broker for the meter values, generate a simulated PV
-power value and the last step is to add this value to the meter value and output the result.
+Meter: This produce random values between 0 and 9000 as electric energy usage (in Watts).
+PV simulator: This simulate creating energy from photovoltaic panels.
 
-Result is saved in the file with all data: timestamp, meter power value, PV power value and the sum of the powers (meter + PV). 
+App count how much user can save. 
 
-Configuration
+##Configuration
 =============
-1. Download and install rabbitMQ from https://www.rabbitmq.com/
-2. Make sure, you've latest python and pip version: 'sudo apt-get update && sudo apt-get upgrade'
-3. Install RabbitMQ library for Python: 'sudo pip install pika'
-4. From console run file 'run.py': 'python run.py'
-<\p>
+Still not ready, preparing for installation on Docker.
